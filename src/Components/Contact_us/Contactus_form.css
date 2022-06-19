@@ -3,12 +3,13 @@
     width: 60%;
 height: 3rem;
 color: #fdfdfd;
-font-size: 25px;
 background-color: black;
 outline: 0;
 border-width: 0px 0 1px;
 border-color: #ffeb3b;
 margin-top: 30px;
+font-family: Francois One;
+font-size: 20px;
 }
 
 
@@ -20,5 +21,14 @@ margin-top: 30px;
     border-radius: 15px;
     border: none;
     background-color: #AA9C20;
-    margin-top: 15px;
+    margin-top: 15px;    
+    font-weight: bold;
+    font-family: Francois One;
+   font-size: 20px;
+
+}
+
+
+.Message-area{
+    height: 100px;
 }

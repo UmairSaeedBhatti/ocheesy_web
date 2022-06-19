@@ -35,7 +35,6 @@ function ContactUs(){
             ></input>
             <div>
             <textarea className="inputfield Message-area" placeholder="Message">
-               
                </textarea>
             </div>
             
