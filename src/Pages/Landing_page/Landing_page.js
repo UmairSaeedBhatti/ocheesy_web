@@ -3,6 +3,7 @@ import Aboutus from '../../Components/Aboutus_text/Aboutus';
 import'./Landing_page.css'
 import Footer from '../../Components/Footer/Footer.js'
 import ContactUs from '../../Components/Contact_us/Contactus_form';
+import MenuNavbar from '../../Components/Menu_navbar/Menu_navbar';
 
 function LandingPage(){
     return(
@@ -18,6 +19,9 @@ function LandingPage(){
          <div className="layout-container">
             <Aboutus></Aboutus>
             <ContactUs></ContactUs>
+            <br></br>
+            <br></br>
+            <MenuNavbar></MenuNavbar>
             <hr></hr>
             <Footer></Footer>
             {/* <MenuNavbar></MenuNavbar> */}
