@@ -1,6 +1,6 @@
 [
     {
-      "Menu": "Enfant",
+      "Menu": "NOS BARQUETTES",
       "Submenu":[
         {
             "Menuname" : "Nugget",
@@ -15,7 +15,7 @@
       ]
     },
     {
-        "Menu": "pizza",
+        "Menu": "NOS MENU ASSIETTE",
         "Submenu":[
           {
               "Menuname" : "Nugget",
@@ -30,7 +30,127 @@
         ]
       },
       {
-        "Menu": "Enfant",
+        "Menu": "MENU ETUDIANT",
+        "Submenu":[
+          {
+              "Menuname" : "Nugget",
+              "Description" : "Hello world",
+              "Price" : 46
+          },
+          {
+              "Menuname" : "Pizza",
+              "Description" : "this is second",
+              "Price" : 6
+          }
+        ]
+      },
+      {
+        "Menu": "MENU ENFANT",
+        "Submenu":[
+          {
+              "Menuname" : "Nugget",
+              "Description" : "Hello world",
+              "Price" : 46
+          },
+          {
+              "Menuname" : "Pizza",
+              "Description" : "this is second",
+              "Price" : 6
+          }
+        ]
+      },
+      {
+        "Menu": "CHOISISSEZ VOS SUPPLEMENT",
+        "Submenu":[
+          {
+              "Menuname" : "Nugget",
+              "Description" : "Hello world",
+              "Price" : 46
+          },
+          {
+              "Menuname" : "Pizza",
+              "Description" : "this is second",
+              "Price" : 6
+          }
+        ]
+      },
+      {
+        "Menu": "NOS NAANS",
+        "Submenu":[
+          {
+              "Menuname" : "Nugget",
+              "Description" : "Hello world",
+              "Price" : 46
+          },
+          {
+              "Menuname" : "Pizza",
+              "Description" : "this is second",
+              "Price" : 6
+          }
+        ]
+      },
+      {
+        "Menu": "NOS SANDWICHS NAAN",
+        "Submenu":[
+          {
+              "Menuname" : "Nugget",
+              "Description" : "Hello world",
+              "Price" : 46
+          },
+          {
+              "Menuname" : "Pizza",
+              "Description" : "this is second",
+              "Price" : 6
+          }
+        ]
+      },
+      {
+        "Menu": "NOS TACOS",
+        "Submenu":[
+          {
+              "Menuname" : "Nugget",
+              "Description" : "Hello world",
+              "Price" : 46
+          },
+          {
+              "Menuname" : "Pizza",
+              "Description" : "this is second",
+              "Price" : 6
+          }
+        ]
+      },
+      {
+        "Menu": "NOS PIZZAS",
+        "Submenu":[
+          {
+              "Menuname" : "Nugget",
+              "Description" : "Hello world",
+              "Price" : 46
+          },
+          {
+              "Menuname" : "Pizza",
+              "Description" : "this is second",
+              "Price" : 6
+          }
+        ]
+      },
+      {
+        "Menu": "NOS BOISSONS SPECIALES",
+        "Submenu":[
+          {
+              "Menuname" : "Nugget pizza",
+              "Description" : "Hello world",
+              "Price" : 46
+          },
+          {
+              "Menuname" : "Pizza",
+              "Description" : "this is second",
+              "Price" : 6
+          }
+        ]
+      },
+      {
+        "Menu": "NOS DESSERTS",
         "Submenu":[
           {
               "Menuname" : "Nugget",
@@ -44,4 +164,5 @@
           }
         ]
       }
+
   ]

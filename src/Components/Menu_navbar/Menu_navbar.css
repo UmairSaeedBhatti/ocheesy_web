@@ -1,4 +1,25 @@
 .Menubtn{
-    width: 232px;
-    height: 50px;
+    width: fit-content;
+    /* width: 60%; */
+    height: 3rem;
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    background-color: #AA9C20;
+    margin-top: 15px;
+    font-family: Francois One;
+    font-size: 20px;
+    /* display: inline-block;
+    text-align: center; */
+}
+
+.Menu_container{
+    overflow-y: auto;
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    scroll-behavior: smooth;
 }
