@@ -1,0 +1,47 @@
+[
+    {
+      "Menu": "Enfant",
+      "Submenu":[
+        {
+            "Menuname" : "Nugget",
+            "Description" : "Hello world",
+            "Price" : 46
+        },
+        {
+            "Menuname" : "Pizza",
+            "Description" : "this is second",
+            "Price" : 6
+        }
+      ]
+    },
+    {
+        "Menu": "pizza",
+        "Submenu":[
+          {
+              "Menuname" : "Nugget",
+              "Description" : "Hello world",
+              "Price" : 46
+          },
+          {
+              "Menuname" : "Pizza",
+              "Description" : "this is second",
+              "Price" : 6
+          }
+        ]
+      },
+      {
+        "Menu": "Enfant",
+        "Submenu":[
+          {
+              "Menuname" : "Nugget",
+              "Description" : "Hello world",
+              "Price" : 46
+          },
+          {
+              "Menuname" : "Pizza",
+              "Description" : "this is second",
+              "Price" : 6
+          }
+        ]
+      }
+  ]
