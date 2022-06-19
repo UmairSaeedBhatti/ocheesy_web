@@ -4,6 +4,8 @@ import Menudata from '../../Data/Menu_data/Menu_data.json'
 function MenuNavbar(){
     return(
         <>
+        <div>
+          <h1>Menu</h1>
           <div className="Menu_container">
               {
                 Menudata.map(menutitle =>{
@@ -15,6 +17,7 @@ function MenuNavbar(){
                     )
                 })
               }
+          </div>
           </div>
         </>
     )

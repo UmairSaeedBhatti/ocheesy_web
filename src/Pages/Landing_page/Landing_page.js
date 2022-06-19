@@ -17,11 +17,11 @@ function LandingPage(){
             </div>
          </div>
          <div className="layout-container">
-            <Aboutus></Aboutus>
+            <MenuNavbar></MenuNavbar>
             <ContactUs></ContactUs>
             <br></br>
             <br></br>
-            <MenuNavbar></MenuNavbar>
+            <Aboutus></Aboutus>
             <hr></hr>
             <Footer></Footer>
             {/* <MenuNavbar></MenuNavbar> */}
