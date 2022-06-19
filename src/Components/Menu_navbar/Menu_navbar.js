@@ -1,4 +1,4 @@
-
+import './Menu_navbar.css'
 
 
 function MenuNavbar(){

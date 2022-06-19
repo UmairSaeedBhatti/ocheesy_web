@@ -4,7 +4,12 @@ function Footer(){
     return(
           <>
              <div className="Footer">
-                  <h1>This is footer</h1>
+                  <div>
+                      <h1>div one</h1>
+                  </div>
+                  <div>
+                     <h1>div two</h1>
+                  </div>
              </div>
           </>
     )

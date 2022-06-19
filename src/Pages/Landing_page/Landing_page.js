@@ -1,6 +1,7 @@
-import MenuNavbar from '../../Components/Menu_navbar/Menu_navbar';
-import './Landing_page.css'
-
+import Aboutus from '../../Components/Aboutus_text/Aboutus';
+//import MenuNavbar from '../../Components/Menu_navbar/Menu_navbar';
+import'./Landing_page.css'
+import Footer from '../../Components/Footer/Footer.js'
 
 function LandingPage(){
     return(
@@ -14,8 +15,10 @@ function LandingPage(){
             </div>
          </div>
          <div className="layout-container">
-            <h1>Spacial indian pakistani</h1>
-            <MenuNavbar></MenuNavbar>
+            <Aboutus></Aboutus>
+            <hr></hr>
+            <Footer></Footer>
+            {/* <MenuNavbar></MenuNavbar> */}
          </div>
         </>
     )
