@@ -1,0 +1,24 @@
+
+.inputfield{
+    width: 60%;
+height: 3rem;
+color: #fdfdfd;
+font-size: 25px;
+background-color: black;
+outline: 0;
+border-width: 0px 0 1px;
+border-color: #ffeb3b;
+margin-top: 30px;
+}
+
+
+.Contactus-us__btn{
+    width: 60%;
+    height: 3rem;
+    font-size: 25px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    background-color: #AA9C20;
+    margin-top: 15px;
+}
