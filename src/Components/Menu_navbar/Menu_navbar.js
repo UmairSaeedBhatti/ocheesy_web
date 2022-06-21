@@ -20,8 +20,10 @@ function MenuNavbar(){
                <div className="Menulist-container__image">image here</div>
                <div className="Menulist-container_list">
                   <h1>Menu</h1>
-                  <div>
-                     <h5>hello world</h5>
+                  <div className="">
+                      <div>
+                          
+                      </div>
                   </div>
                </div>
           </div>

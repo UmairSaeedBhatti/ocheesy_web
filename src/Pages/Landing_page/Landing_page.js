@@ -22,7 +22,6 @@ function LandingPage(){
             <br></br>
             <br></br>
             <Aboutus></Aboutus>
-            <hr></hr>
             <Footer></Footer>
             {/* <MenuNavbar></MenuNavbar> */}
          </div>

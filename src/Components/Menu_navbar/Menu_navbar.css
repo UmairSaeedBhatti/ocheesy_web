@@ -14,8 +14,7 @@
 
 .Menu_container{
     overflow-y: auto;
-    width: 84%;
-    justify-content: space-evenly;
+    width: 80%;
     scroll-behavior: smooth;
     display: inline-grid;
     grid-auto-columns: max-content;

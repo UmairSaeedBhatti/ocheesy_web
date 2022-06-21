@@ -1,4 +1,5 @@
 .Footer{
       display: flex;
       background-color: #292727;
+      justify-content: center;
 }
