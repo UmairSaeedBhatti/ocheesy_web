@@ -5,7 +5,6 @@ function MenuNavbar(){
     return(
         <>
         <div>
-          <h1>Menu</h1>
           <div className="Menu_container">
               {
                 Menudata.map(menutitle =>{

@@ -1,27 +1,30 @@
 .Menubtn{
+    width: -moz-fit-content;
     width: fit-content;
     /* width: 60%; */
     height: 3rem;
-    font-size: 25px;
+    /* font-size: 25px; */
     color: white;
     border-radius: 15px;
     border: none;
     background-color: #AA9C20;
     margin-top: 15px;
     font-family: Francois One;
-    font-size: 20px;
-    /* display: inline-block;
-    text-align: center; */
+    font-size: 15px;
+    margin: 8px;
 }
 
 .Menu_container{
     overflow-y: auto;
-    display: flex;
-    width: 60%;
-    margin-left: 20%;
-    flex-direction: row;
+    /* display: flex; */
+    width: 84%;
+    /* margin-left: 20%; */
+    /* flex-direction: row; */
     justify-content: space-evenly;
     scroll-behavior: smooth;
+    display: inline-grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
 }
 
 .Menulist_container{
@@ -36,7 +39,6 @@
     width: 40%;
     background-color: blue;
 }
-
 
 .Menulist-container_list{
     width: 40%;

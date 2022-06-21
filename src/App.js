@@ -8,7 +8,6 @@ function App() {
   return (
     <>
     <div className="App">
-      <h4>Under Construction!</h4>
       <TopNavbar></TopNavbar>
         <LandingPage></LandingPage>
     </div>
