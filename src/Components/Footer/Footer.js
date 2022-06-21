@@ -5,10 +5,10 @@ function Footer(){
           <>
              <div className="Footer">
                   <div>
-                      <h1>div one</h1>
+                      <p>privacy Policy</p>
                   </div>
                   <div>
-                     <h1>div two</h1>
+                     <p>About us</p>
                   </div>
              </div>
           </>

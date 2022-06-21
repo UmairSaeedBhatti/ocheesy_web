@@ -6,12 +6,12 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    margin-top: 20px;
+    margin-top: 15px;
     color: white;
     border-radius: 20px;
     font-size: 22px;
-    width: 800px;
-    height: 75px;
+    width: 60%;
+    height: 70px;
     justify-content: center;
     font-family: 'Francois One';
     font-style: normal;
