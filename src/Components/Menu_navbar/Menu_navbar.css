@@ -30,10 +30,10 @@
 
 .Menulist-container__image{
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .Menulist-container_list{
     width: 100%;
-    background: gray;
+    /* background: gray; */
 }
