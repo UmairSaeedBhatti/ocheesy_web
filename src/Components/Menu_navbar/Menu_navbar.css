@@ -1,7 +1,6 @@
 .Menubtn{
-    width: -moz-fit-content;
     width: fit-content;
-    height: 3rem;
+    height: 2.5rem;
     color: white;
     border-radius: 15px;
     border: none;
@@ -10,6 +9,7 @@
     font-family: Francois One;
     font-size: 15px;
     margin: 8px;
+    font-weight: 600;
 }
 
 .Menu_container{
@@ -19,6 +19,7 @@
     display: inline-grid;
     grid-auto-columns: max-content;
     grid-auto-flow: column;
+    margin-top: 20px;
 }
 
 .Menulist_container{
