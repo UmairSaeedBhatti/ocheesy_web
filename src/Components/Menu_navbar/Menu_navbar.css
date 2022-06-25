@@ -22,11 +22,9 @@
     margin-top: 20px;
 }
 
-
 .Menu_container::-webkit-scrollbar {
     width: 12px;
 }
-
 
 .Menulist_container{
     display: flex;

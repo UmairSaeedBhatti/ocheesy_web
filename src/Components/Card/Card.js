@@ -2,12 +2,12 @@ import './Card.css'
 
 
 
-function Card(){
+function Card({image}){
     return(
         <>
              <div className="Card-Container">
                   <div className="image">
-                        <h2>image here</h2>
+                        <img src={image} alt="pizza" className="imagestyle"></img>
                   </div>
                   <div className="Description">
                          <h3>Description</h3>

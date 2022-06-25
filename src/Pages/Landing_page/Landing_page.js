@@ -5,6 +5,7 @@ import Footer from '../../Components/Footer/Footer.js'
 import ContactUs from '../../Components/Contact_us/Contactus_form';
 import MenuNavbar from '../../Components/Menu_navbar/Menu_navbar';
 import Card from '../../Components/Card/Card'
+import tasty from '../../images/tasty-homemade-donut-bagel.jpg'
 
 function LandingPage(){
     return(
@@ -19,7 +20,7 @@ function LandingPage(){
          </div>
          <div className="layout-container">
           <h1>Special indian pakistani</h1>
-            <Card/>
+            <Card image={tasty}/>
             <MenuNavbar/>
             <ContactUs/>
             <br></br>

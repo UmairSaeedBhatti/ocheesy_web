@@ -1,7 +1,11 @@
 
-
-
 .Card-Container{
     display: flex;
     justify-content: space-evenly;
+}
+
+
+.imagestyle{
+      width: 300px;
+      height: 300px;
 }

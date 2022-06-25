@@ -1,6 +1,6 @@
 
 .inputfield{
-    width: 60%;
+width: 60%;
 height: 3rem;
 color: #fdfdfd;
 background-color: black;
@@ -11,7 +11,6 @@ margin-top: 30px;
 font-family: Francois One;
 font-size: 20px;
 }
-
 
 .Contactus-us__btn{
     width: 60%;
@@ -24,10 +23,8 @@ font-size: 20px;
     margin-top: 15px;    
     font-weight: bold;
     font-family: Francois One;
-   font-size: 20px;
-
+    font-size: 20px;
 }
-
 
 .Message-area{
     height: 100px;

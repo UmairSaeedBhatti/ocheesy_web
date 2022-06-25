@@ -24,26 +24,21 @@
     
 }
 
-
-
 .top-navbar__menuitem {
     margin-right: 20px;
   }
-  
+
+
   .top-navbar__menuitem:after {
     content: '';
     position: absolute;
     width: 5%;
     transform: scaleX(0);
     height: 2px;
-    /* bottom: 0;
-    left: 0; */
     background-color: white;
-    /* transform-origin: bottom right; */
     transition: transform 0.25s ease-out;
   }
   
   .top-navbar__menuitem:hover:after {
     transform: scaleX(1);
-    /* transform-origin: bottom left; */
   }
