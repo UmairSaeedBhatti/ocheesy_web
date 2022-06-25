@@ -4,6 +4,7 @@ import'./Landing_page.css'
 import Footer from '../../Components/Footer/Footer.js'
 import ContactUs from '../../Components/Contact_us/Contactus_form';
 import MenuNavbar from '../../Components/Menu_navbar/Menu_navbar';
+import Card from '../../Components/Card/Card'
 
 function LandingPage(){
     return(
@@ -17,12 +18,14 @@ function LandingPage(){
             </div>
          </div>
          <div className="layout-container">
-            <MenuNavbar></MenuNavbar>
-            <ContactUs></ContactUs>
+          <h1>Special indian pakistani</h1>
+            <Card/>
+            <MenuNavbar/>
+            <ContactUs/>
             <br></br>
             <br></br>
-            <Aboutus></Aboutus>
-            <Footer></Footer>
+            <Aboutus/>
+            <Footer/>
             {/* <MenuNavbar></MenuNavbar> */}
          </div>
         </>
