@@ -2,7 +2,7 @@
 import './App.css';
 import TopNavbar from './Components/Top_navbar/Top_navbar';
 import LandingPage from './Pages/Landing_page/Landing_page';
-//import Footer from './Components/Footer/Footer.js'
+import Footer from '../src/Components/Footer/Footer'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <TopNavbar></TopNavbar>
         <LandingPage></LandingPage>
+        <Footer/>
     </div>
     </>
     

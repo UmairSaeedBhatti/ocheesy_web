@@ -5,6 +5,9 @@ import './LocationPage.css'
 function  LocationPage(){
     return(
         <>
+            <div>
+                
+            </div>
         </>
     )
 }

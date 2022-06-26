@@ -1,7 +1,7 @@
 import'./Landing_page.css'
-import Footer from '../../Components/Footer/Footer.js'
 import Card from '../../Components/Card/Card'
 import tasty from '../../images/tasty-homemade-donut-bagel.jpg'
+import Footer from '../../Components/Footer/Footer';
 
 function LandingPage(){
     return(
@@ -16,11 +16,13 @@ function LandingPage(){
          </div>
          <div className="layout-container">
           <h1>Special indian pakistani</h1>
-            <Card image={tasty}/>
+            <Card image={tasty} description="Description text here"/>
+            <Card image={tasty} description="second card"/>
+            <Card image={tasty} description="Third card"/>
             <br></br>
             <br></br>
+            
             <Footer/>
-            {/* <MenuNavbar></MenuNavbar> */}
          </div>
         </>
     )
