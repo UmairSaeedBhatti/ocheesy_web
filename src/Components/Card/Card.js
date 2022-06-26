@@ -2,7 +2,7 @@ import './Card.css'
 
 
 
-function Card({image}){
+function Card({image , description}){
     return(
         <>
              <div className="Card-Container">
@@ -10,7 +10,7 @@ function Card({image}){
                         <img src={image} alt="pizza" className="imagestyle"></img>
                   </div>
                   <div className="Description">
-                         <h3>Description</h3>
+                         <h3>{description}</h3>
                   </div>
              </div>
         </>
