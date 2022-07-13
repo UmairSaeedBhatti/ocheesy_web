@@ -29,7 +29,7 @@
   }
 
 
-  .top-navbar__menuitem:after {
+  /* .top-navbar__menuitem:after {
     content: '';
     position: absolute;
     width: 5%;
@@ -41,4 +41,4 @@
   
   .top-navbar__menuitem:hover:after {
     transform: scaleX(1);
-  }
+  } */

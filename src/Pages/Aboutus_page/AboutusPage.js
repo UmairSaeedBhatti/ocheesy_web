@@ -1,4 +1,4 @@
-import Aboutus from '../../Components/Aboutus_text/Aboutus'
+import Aboutus from '../../Components/Aboutus/Aboutus'
 import './Aboutuspage.css'
 
 

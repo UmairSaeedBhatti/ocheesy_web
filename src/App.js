@@ -13,12 +13,14 @@ import {
   Navigate,
 } from "react-router-dom";
 import AboutusPage from './Pages/Aboutus_page/AboutusPage';
+import TopNavbar from '../src/Components/TopNavbar/Top_navbar';
 
 function App() {
   return (
     <>
     <div className="App">
     <Router>
+    <TopNavbar/>
           <Routes>
             <Route exact path="/home" element={<LandingPage/>} />
             <Route exact path="/menu" element={<MenuPage/>} />

@@ -2,7 +2,6 @@ import './Aboutus.css'
 
 function Aboutus({text}){
     return(
-        <>
           <div className="Aboutus-text">
             <h1>About us</h1>
             <p>
@@ -18,7 +17,6 @@ function Aboutus({text}){
              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
           </div>
-        </>
     )
 }
 
