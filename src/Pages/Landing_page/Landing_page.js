@@ -1,7 +1,7 @@
 import'./Landing_page.css'
 import Card from '../../Components/Card/Card'
 import tasty from '../../images/tasty-homemade-donut-bagel.jpg'
-import TopNavbar from '../../Components/Top_navbar/Top_navbar';
+import TopNavbar from '../../Components/TopNavbar/Topnavbar';
 
 function LandingPage(){
     return(

@@ -1,6 +1,5 @@
 
 import './App.css';
-// import TopNavbar from './Components/Top_navbar/Top_navbar';
 import LandingPage from './Pages/Landing_page/Landing_page';
 import MenuPage from './Pages/Menu_page/MenuPage';
 import LocationPage from './Pages/Location_page/LocationPage';
@@ -13,7 +12,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import AboutusPage from './Pages/Aboutus_page/AboutusPage';
-import TopNavbar from '../src/Components/TopNavbar/Top_navbar';
+import TopNavbar from './Components/TopNavbar/Topnavbar';
 
 function App() {
   return (

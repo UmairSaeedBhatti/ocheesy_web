@@ -1,4 +1,4 @@
-import MenuNavbar from '../../Components/Menu_navbar/Menu_navbar'
+import MenuNavbar from '../../Components/MenuNavbar/Menunavbar'
 import './MenuPage.css'
 
 

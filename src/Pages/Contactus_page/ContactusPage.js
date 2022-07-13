@@ -1,5 +1,5 @@
 import './ContactusPage.css'
-import Contactus from '../../Components/Contact_us/Contactus_form'
+import Contactus from '../../Components/ContactUs/Contactusform'
 
 
 function  ContactusPage(){
