@@ -1,16 +1,39 @@
 
 import './App.css';
-import TopNavbar from './Components/Top_navbar/Top_navbar';
+// import TopNavbar from './Components/Top_navbar/Top_navbar';
 import LandingPage from './Pages/Landing_page/Landing_page';
-import Footer from '../src/Components/Footer/Footer'
+import MenuPage from './Pages/Menu_page/MenuPage';
+import LocationPage from './Pages/Location_page/LocationPage';
+import ContactusPage from './Pages/Contactus_page/ContactusPage';
+// import Footer from '../src/Components/Footer/Footer'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import AboutusPage from './Pages/Aboutus_page/AboutusPage';
 
 function App() {
   return (
     <>
     <div className="App">
-      <TopNavbar></TopNavbar>
-        <LandingPage></LandingPage>
-        <Footer/>
+    <Router>
+          <Routes>
+            <Route exact path="/home" element={<LandingPage/>} />
+            <Route exact path="/menu" element={<MenuPage/>} />
+            <Route exact path="/location" element={<LocationPage/>} />
+            <Route exact path="/contact" element={<ContactusPage/>} />
+            <Route exact path="/about"   element={<AboutusPage/>}/>
+            <Route exact path="/" element={<Navigate to="/home" />} />
+          </Routes>
+        </Router>
+      {/* <TopNavbar></TopNavbar>
+      <div>
+      <LandingPage></LandingPage>
+      </div> */}
+        {/* <Footer/> */}
+       
     </div>
     </>
     
