@@ -4,7 +4,6 @@ import './Contactus_form.css'
 
 function ContactUs(){
     return(
-        <>
         <div className="Contact-us">
             <h1>Contact us</h1>
         <form>
@@ -44,7 +43,6 @@ function ContactUs(){
           </button>
         </form>
       </div>
-        </>
     )
 }
 

@@ -2,7 +2,6 @@ import './Footer.css'
 
 function Footer(){
     return(
-          <>
              <div className="Footer">
                   <div>
                       <p>Copy Right Reserved</p>
@@ -11,7 +10,6 @@ function Footer(){
                   <div>
                   </div>
              </div>
-          </>
     )
 }
 

@@ -5,7 +5,7 @@ import LandingPage from './Pages/Landing_page/Landing_page';
 import MenuPage from './Pages/Menu_page/MenuPage';
 import LocationPage from './Pages/Location_page/LocationPage';
 import ContactusPage from './Pages/Contactus_page/ContactusPage';
-// import Footer from '../src/Components/Footer/Footer'
+ import Footer from '../src/Components/Footer/Footer'
 import {
   BrowserRouter as Router,
   Routes,
@@ -27,6 +27,7 @@ function App() {
             <Route exact path="/about"   element={<AboutusPage/>}/>
             <Route exact path="/" element={<Navigate to="/home" />} />
           </Routes>
+          <Footer/>
         </Router>
       {/* <TopNavbar></TopNavbar>
       <div>
