@@ -2,6 +2,10 @@ import'./Landing_page.css'
 import Card from '../../Components/Card/Card'
 import tasty from '../../images/tasty-homemade-donut-bagel.jpg'
 import TopNavbar from '../../Components/TopNavbar/Topnavbar';
+import Aboutus from '../../Components/Aboutus/Aboutus';
+import MenuNavbar from '../../Components/MenuNavbar/Menunavbar';
+import ContactUs from '../../Components/ContactUs/Contactusform';
+import TimeLocation from '../../Components/TimeLocation/Timelocation';
 
 function LandingPage(){
     return(
@@ -22,7 +26,12 @@ function LandingPage(){
             <Card image={tasty} description="Third card"/>
             <br></br>
             <br></br>
+            <Aboutus/>
+            <MenuNavbar/>
+            <ContactUs/>
+            <TimeLocation/>
          </div>
+        
         </>
     )
 }

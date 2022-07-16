@@ -1,5 +1,4 @@
 import MenuNavbar from '../../Components/MenuNavbar/Menunavbar'
-import './MenuPage.css'
 
 
 

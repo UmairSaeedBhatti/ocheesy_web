@@ -1,6 +1,6 @@
 import './Aboutus.css'
 
-function Aboutus({text}){
+function Aboutus(){
     return(
           <div className="Aboutus-text">
             <h1>About us</h1>

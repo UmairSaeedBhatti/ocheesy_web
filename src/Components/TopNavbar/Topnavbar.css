@@ -26,19 +26,12 @@
 
 .top-navbar__menuitem {
     margin-right: 20px;
+    color: white;
+    text-decoration: none;
   }
 
 
-  /* .top-navbar__menuitem:after {
-    content: '';
-    position: absolute;
-    width: 5%;
-    transform: scaleX(0);
-    height: 2px;
-    background-color: white;
-    transition: transform 0.25s ease-out;
+
+  .top-navbar__menuitem:hover{
+    color: yellow;
   }
-  
-  .top-navbar__menuitem:hover:after {
-    transform: scaleX(1);
-  } */
