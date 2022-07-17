@@ -1,7 +1,5 @@
 import './Contactusform.css'
 
-
-
 function ContactUs(){
     return(
         <div className="Contact-us">
