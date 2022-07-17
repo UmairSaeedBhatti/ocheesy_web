@@ -4,11 +4,16 @@ import './Timelocation.css'
 
 function TimeLocation(){
     return(
-        <>
-               <h1>Time location components</h1>
-        </>
+        <div className='Timelocation_layout'>
+            <div>
+                  <h1>time </h1>
+            </div>
+            <div>
+                
+            </div>
+
+        </div>
     )
 }
-
 
 export default TimeLocation

@@ -1,7 +1,5 @@
 import './Card.css'
 
-
-
 function Card({image , description}){
     return(
              <div className="Card-Container">
