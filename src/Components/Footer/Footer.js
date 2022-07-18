@@ -6,6 +6,7 @@ function Footer(){
                   <div>
                       <p>Copy Right Reserved</p>
                       <p>o'Chessy</p>
+                      <p>copy Right</p>
                   </div>
                   <div>
                   </div>
