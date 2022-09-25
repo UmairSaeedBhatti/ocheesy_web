@@ -12,9 +12,9 @@
     font-weight: 600;
 }
 
-
 .Menu_container{
     overflow-y: auto;
+    background-color: red;
     width: 80%;
     scroll-behavior: smooth;
     display: inline-grid;
@@ -36,10 +36,8 @@
 
 .Menulist-container__image{
     width: 100%;
-    /* background-color: blue; */
 }
 
 .Menulist-container_list{
     width: 100%;
-    /* background: gray; */
 }

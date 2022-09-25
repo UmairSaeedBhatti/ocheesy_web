@@ -34,7 +34,6 @@ function ContactUs(){
             <textarea className="inputfield Message-area" placeholder="Message">
                </textarea>
             </div>
-            
           </div>
           <button className="Contactus-us__btn" type="Submit">
             Submit
